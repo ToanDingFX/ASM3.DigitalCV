@@ -1,0 +1,25 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+  .title {
+    display: none;
+  }
+  #target {
+    width: 100%;
+    height: 100%;
+  }
+  .cer-flex {
+    flex-direction: column;
+  }
+  .cer-flex1 {
+    padding-left: 60px;
+  }
+  .pr-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item1 {
+    grid-column: 2/3;
+  }
+  tr td:first-child {
+    padding-right: 10px;
+  }
+}

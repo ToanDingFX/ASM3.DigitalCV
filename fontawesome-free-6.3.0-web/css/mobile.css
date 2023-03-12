@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .title {
+    display: none;
+  }
+  #nav-bar > nav {
+    display: block;
+    margin-left: 0;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    border-left: none;
+    text-align: left;
+  }
+
+  #target,
+  #personal-info {
+    padding-left: 20px;
+  }
+  .cer-flex1 {
+    border-left: none;
+    border-top: 1px solid #d6c08d;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+}

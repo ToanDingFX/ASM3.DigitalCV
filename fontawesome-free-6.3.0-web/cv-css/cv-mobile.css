@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .container {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+  }
+  .timeline {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .scope {
+    grid-row: 2/3;
+  }
+  .team {
+    grid-row: 3/4;
+  }
+}
