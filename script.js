@@ -35,16 +35,17 @@ for (
   let i = 0;
   i < jobInfo.length;
   i++ //dùng vòng lặp for để truy xuất vào từng ô
-)
+){
   //sự kiện mouseover và mouseout để ẩn và hiện nút viwemore khi di chuột đến phần tử
   jobInfo[i].addEventListener("mouseover", function () {
     btnView[i].style.display = "block";
   });
 
-for (let i = 0; i < jobInfo.length; i++)
+
   jobInfo[i].addEventListener("mouseout", function () {
     btnView[i].style.display = "none";
-  });
+  })
+};
 //sự kiện click để ẩn hiện thông tin của content
 for (let i = 0; i < btnView.length; i++)
   btnView[i].addEventListener("click", function () {
